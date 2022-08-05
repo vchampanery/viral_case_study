@@ -1,0 +1,857 @@
+{
+	"id": "a2d42bf1-6653-8884-ad05-3d0846d0a0d2",
+	"name": "upay",
+	"description": "",
+	"order": [
+		"ed13d216-21f6-d334-0921-ebeca16834be",
+		"9291c3e4-2f64-db1e-4d1c-9468b540f25e",
+		"1fb60b69-816f-1794-83dd-fe341d156865",
+		"852ce929-6e36-a6af-7bf3-34e99975266f",
+		"55456a38-46de-9cb7-6c3e-92099499315e",
+		"ae57f178-431a-5011-8606-c403b2eece5b",
+		"783d7682-f491-0cb6-d442-88dc4872fb82",
+		"25debf9e-7c88-4ed0-6794-1cf5fb730678",
+		"7e23d704-d9cf-8a89-0a5a-0480498711d2",
+		"0b79225a-f9ac-ac8b-3b44-94d367e3d316",
+		"23819932-6fa5-7172-7045-dee3038a0777"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1659608367253,
+	"owner": "1838043",
+	"public": false,
+	"requests": [
+		{
+			"id": "0b79225a-f9ac-ac8b-3b44-94d367e3d316",
+			"headers": "Authorization: Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/ctest_sm/public/api/cart/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "a2d42bf1-6653-8884-ad05-3d0846d0a0d2",
+			"data": [
+				{
+					"key": "user",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "P1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "12",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "category",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Description",
+					"value": "1212sadadfadfa asdfasdfsdf",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Avatar",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "cart delete",
+			"description": "search\t",
+			"descriptionFormat": "html",
+			"time": 1659636694112,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "1fb60b69-816f-1794-83dd-fe341d156865",
+			"headers": "Authorization: Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/ctest_sm/public/api/search",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a2d42bf1-6653-8884-ad05-3d0846d0a0d2",
+			"data": null,
+			"dataMode": "params",
+			"name": "Search",
+			"description": "search\t",
+			"descriptionFormat": "html",
+			"time": 1659608384180,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "23819932-6fa5-7172-7045-dee3038a0777",
+			"headers": "Authorization: Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/ctest_sm/public/api/cart",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a2d42bf1-6653-8884-ad05-3d0846d0a0d2",
+			"data": [
+				{
+					"key": "user",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "P1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "12",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "category",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Description",
+					"value": "1212sadadfadfa asdfasdfsdf",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Avatar",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "cart get all",
+			"description": "search\t",
+			"descriptionFormat": "html",
+			"time": 1659636714307,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "25debf9e-7c88-4ed0-6794-1cf5fb730678",
+			"headers": "Authorization: Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/ctest_sm/public/api/cart",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "session_id",
+					"value": "huFQjTagMJFiCcncDBCEDXvjSQtNOGtqabhUZaVv",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "qty",
+					"value": "112",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Description",
+					"value": "1212sadadfadfa asdfasdfsdf",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Avatar",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1659638963814,
+			"name": "cart add",
+			"description": "search\t",
+			"collectionId": "a2d42bf1-6653-8884-ad05-3d0846d0a0d2",
+			"responses": []
+		},
+		{
+			"id": "55456a38-46de-9cb7-6c3e-92099499315e",
+			"headers": "Authorization: Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/ctest_sm/public/api/products",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a2d42bf1-6653-8884-ad05-3d0846d0a0d2",
+			"data": [
+				{
+					"key": "user",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "P1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "12",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "category",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Description",
+					"value": "1212sadadfadfa asdfasdfsdf",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Avatar",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "product get all",
+			"description": "search\t",
+			"descriptionFormat": "html",
+			"time": 1659636166616,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "783d7682-f491-0cb6-d442-88dc4872fb82",
+			"headers": "Authorization: Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/ctest_sm/public/api/products/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "a2d42bf1-6653-8884-ad05-3d0846d0a0d2",
+			"data": [
+				{
+					"key": "user",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "P1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "12",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "category",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Description",
+					"value": "1212sadadfadfa asdfasdfsdf",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Avatar",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "product delete single",
+			"description": "search\t",
+			"descriptionFormat": "html",
+			"time": 1659636456792,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7e23d704-d9cf-8a89-0a5a-0480498711d2",
+			"headers": "Authorization: Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/ctest_sm/public/api/cart/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "session_id",
+					"value": "huFQjTagMJFiCcncDBCEDXvjSQtNOGtqabhUZaVv",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "user_id",
+					"value": "2",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "product_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "qty",
+					"value": "12",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Description",
+					"value": "1212sadadfadfa asdfasdfsdf",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Avatar",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1659639023614,
+			"name": "cart update",
+			"description": "search\t",
+			"collectionId": "a2d42bf1-6653-8884-ad05-3d0846d0a0d2",
+			"responses": []
+		},
+		{
+			"id": "852ce929-6e36-a6af-7bf3-34e99975266f",
+			"headers": "Authorization: Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/ctest_sm/public/api/products",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "User",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Name",
+					"value": "P1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Price",
+					"value": "12",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Category",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Description",
+					"value": "1212sadadfadfa asdfasdfsdf",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Avatar",
+					"value": "degree_certificate.jpg",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1659729510695,
+			"name": "product add",
+			"description": "",
+			"collectionId": "a2d42bf1-6653-8884-ad05-3d0846d0a0d2",
+			"responses": []
+		},
+		{
+			"id": "9291c3e4-2f64-db1e-4d1c-9468b540f25e",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/ctest_sm/public/api/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a2d42bf1-6653-8884-ad05-3d0846d0a0d2",
+			"data": [
+				{
+					"key": "email",
+					"value": "john@doe.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "Login",
+			"description": "Login ",
+			"descriptionFormat": "html",
+			"time": 1659608374754,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ae57f178-431a-5011-8606-c403b2eece5b",
+			"headers": "Authorization: Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/ctest_sm/public/api/products/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a2d42bf1-6653-8884-ad05-3d0846d0a0d2",
+			"data": [
+				{
+					"key": "user",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "P1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "12",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "category",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Description",
+					"value": "1212sadadfadfa asdfasdfsdf",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Avatar",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "product get single",
+			"description": "search\t",
+			"descriptionFormat": "html",
+			"time": 1659636384473,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ed13d216-21f6-d334-0921-ebeca16834be",
+			"headers": "Content-Type: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/ctest_sm/public/api/register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "viral3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "viral3@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1659739439769,
+			"name": "Register",
+			"description": "Register ",
+			"collectionId": "a2d42bf1-6653-8884-ad05-3d0846d0a0d2",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 883,
+					"headers": [
+						{
+							"name": "access-control-allow-origin",
+							"key": "access-control-allow-origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "Keep-Alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 05 Aug 2022 19:21:51 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "keep-alive",
+							"key": "keep-alive",
+							"value": "timeout=5, max=100",
+							"description": "Custom header"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6",
+							"description": "A name for the server"
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/8.1.6",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "59",
+							"description": "Custom header"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"success\":true,\"message\":\"user registered successfully.\",\"data\":{\"token\":\"5|vpxfI4hnYVke7WvjAu86OJd4wtguU4JrAU0wIttp\",\"user\":{\"name\":\"viral3\",\"email\":\"viral3@gmail.com\",\"updated_at\":\"2022-08-05T19:21:52.000000Z\",\"created_at\":\"2022-08-05T19:21:52.000000Z\",\"id\":6}}}",
+					"language": "xml",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "Register",
+					"id": "8c2663ae-dc73-2e8c-385a-ab1344ee3790",
+					"request": {
+						"url": "http://localhost/ctest_sm/public/api/register",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"value": "",
+								"description": "",
+								"enabled": false,
+								"warning": ""
+							}
+						],
+						"headers": "//Content-Type: \n",
+						"data": [
+							{
+								"key": "name",
+								"value": "viral3",
+								"description": "",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "email",
+								"value": "viral3@gmail.com",
+								"description": "",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "password",
+								"value": "password",
+								"description": "",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"method": "POST",
+						"dataMode": "params"
+					}
+				}
+			]
+		}
+	]
+}

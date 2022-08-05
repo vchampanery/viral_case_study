@@ -1,0 +1,667 @@
+{
+	"variables": [],
+	"info": {
+		"name": "upay",
+		"_postman_id": "a2d42bf1-6653-8884-ad05-3d0846d0a0d2",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"url": "http://localhost/ctest_sm/public/api/register",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "viral3",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "viral3@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "password",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "Register "
+			},
+			"response": [
+				{
+					"id": "ec0eb040-0d2f-485b-9cc7-3d7f860d23b5",
+					"name": "Register",
+					"originalRequest": {
+						"url": "http://localhost/ctest_sm/public/api/register",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "",
+								"description": "",
+								"warning": "",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "viral3",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "viral3@gmail.com",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "password",
+									"description": "",
+									"type": "text"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "xml",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "access-control-allow-origin",
+							"key": "access-control-allow-origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "Keep-Alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 05 Aug 2022 19:21:51 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "keep-alive",
+							"key": "keep-alive",
+							"value": "timeout=5, max=100",
+							"description": "Custom header"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6",
+							"description": "A name for the server"
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/8.1.6",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "59",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 883,
+					"body": "{\"success\":true,\"message\":\"user registered successfully.\",\"data\":{\"token\":\"5|vpxfI4hnYVke7WvjAu86OJd4wtguU4JrAU0wIttp\",\"user\":{\"name\":\"viral3\",\"email\":\"viral3@gmail.com\",\"updated_at\":\"2022-08-05T19:21:52.000000Z\",\"created_at\":\"2022-08-05T19:21:52.000000Z\",\"id\":6}}}"
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"request": {
+				"url": "http://localhost/ctest_sm/public/api/login",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "john@doe.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "password",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "Login "
+			},
+			"response": []
+		},
+		{
+			"name": "Search",
+			"request": {
+				"url": "http://localhost/ctest_sm/public/api/search",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "search\t"
+			},
+			"response": []
+		},
+		{
+			"name": "product add",
+			"request": {
+				"url": "http://localhost/ctest_sm/public/api/products",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "User",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Name",
+							"value": "P1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Price",
+							"value": "12",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Category",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Description",
+							"value": "1212sadadfadfa asdfasdfsdf",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Avatar",
+							"description": "",
+							"type": "file",
+							"src": "degree_certificate.jpg"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "product get all",
+			"request": {
+				"url": "http://localhost/ctest_sm/public/api/products",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "P1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "12",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Description",
+							"value": "1212sadadfadfa asdfasdfsdf",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Avatar",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"description": "search\t"
+			},
+			"response": []
+		},
+		{
+			"name": "product get single",
+			"request": {
+				"url": "http://localhost/ctest_sm/public/api/products/1",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "P1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "12",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Description",
+							"value": "1212sadadfadfa asdfasdfsdf",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Avatar",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"description": "search\t"
+			},
+			"response": []
+		},
+		{
+			"name": "product delete single",
+			"request": {
+				"url": "http://localhost/ctest_sm/public/api/products/1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "P1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "12",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Description",
+							"value": "1212sadadfadfa asdfasdfsdf",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Avatar",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"description": "search\t"
+			},
+			"response": []
+		},
+		{
+			"name": "cart add",
+			"request": {
+				"url": "http://localhost/ctest_sm/public/api/cart",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "session_id",
+							"value": "huFQjTagMJFiCcncDBCEDXvjSQtNOGtqabhUZaVv",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "product_id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "qty",
+							"value": "112",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Description",
+							"value": "1212sadadfadfa asdfasdfsdf",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Avatar",
+							"value": "",
+							"description": "",
+							"type": "file",
+							"disabled": true
+						}
+					]
+				},
+				"description": "search\t"
+			},
+			"response": []
+		},
+		{
+			"name": "cart update",
+			"request": {
+				"url": "http://localhost/ctest_sm/public/api/cart/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "session_id",
+							"value": "huFQjTagMJFiCcncDBCEDXvjSQtNOGtqabhUZaVv",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "user_id",
+							"value": "2",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "product_id",
+							"value": "1",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "qty",
+							"value": "12",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "Description",
+							"value": "1212sadadfadfa asdfasdfsdf",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "Avatar",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"description": "search\t"
+			},
+			"response": []
+		},
+		{
+			"name": "cart delete",
+			"request": {
+				"url": "http://localhost/ctest_sm/public/api/cart/1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "P1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "12",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Description",
+							"value": "1212sadadfadfa asdfasdfsdf",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Avatar",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"description": "search\t"
+			},
+			"response": []
+		},
+		{
+			"name": "cart get all",
+			"request": {
+				"url": "http://localhost/ctest_sm/public/api/cart",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 1|3P3YRcKMc24FP688kq4uZB30I3O6E2xLh6LrfWwE",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "P1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "12",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Description",
+							"value": "1212sadadfadfa asdfasdfsdf",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Avatar",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"description": "search\t"
+			},
+			"response": []
+		}
+	]
+}
